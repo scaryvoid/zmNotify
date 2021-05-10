@@ -1,0 +1,7 @@
+Uses pyzm to contact the zoneminder eventserver to check for any new alarms. If any are found send a desktop notification and play an alert using Notify.
+I'm using this on linux, I doubt it will work for anything else.
+
+To play a sound you will need to add a sound file to the program directory called alert.ogg.
+To connect to the eventserver you will have to supply a secrets.ini file as described in the event server documentation.
+
+Also includes a simple watch script to ensure the program is running. You can just add that script to your cron.
